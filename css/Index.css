@@ -1,10 +1,17 @@
 .section1-container {
     display: flex;
     justify-content: center;
+    
+    
 }
 .img-container {
     background-image: url(/images/Tinberg_solar_system._sun_in_the_background._child_color._blue__bb52698c-20fc-4ee3-b5e0-aab8d8c30981.png);
-    width: 1440px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+
     height: 700px;
     display: flex;
     justify-content: center;
