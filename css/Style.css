@@ -6,7 +6,21 @@
   list-style: none;
   text-decoration: none;
 }
-
+body {
+  background-color: #E2EBE9;
+}
+main {
+  padding-top: 106px;
+}
+h1 {
+  font-size: 2.5em;
+}
+.h1-1 {
+  color: white;
+}
+.h1-2 {
+  color:#423E3E;
+}
 a {
   color: white;
 }
