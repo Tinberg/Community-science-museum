@@ -14,18 +14,19 @@ a {
 #toggle-hamburger {
   display: none;
 }
-.x-hamburger {
+.checked {
   display: none;
-  color: white;
 }
-
 .hamburger {
-  cursor: pointer;
-  padding-right: 30px;
   margin-left: auto;
+  padding-right: 30px;
+}
+.unchecked {
+  cursor: pointer;
   font-size: 2em;
   color: white;
 }
+
 .hamburger-logo {
   padding-right: 10px;
 }
@@ -127,10 +128,8 @@ a {
 /*Hamburger*/
 @media only screen and (max-width: 1027px) {
   nav .ul-container {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     position: absolute;
     background-color: #19235c;
     width: 100%;
@@ -146,15 +145,13 @@ a {
     transform: translatey(0);
   }
 
-  #toggle-hamburger:checked ~ nav .hamburger {
+  #toggle-hamburger:checked ~ nav .unchecked {
     display: none;
   }
-  #toggle-hamburger:checked ~ nav .x-hamburger {
+  #toggle-hamburger:checked ~ nav .checked {
     display: flex;
-    cursor: pointer;
-    padding-right: 30px;
-    margin-left: auto;
     font-size: 2em;
+    color: white;
   }
   .ul-container .desktop-only {
     display: none;
@@ -176,11 +173,8 @@ a {
   .logo-text {
     padding: 15px 10px;
   }
-
 }
 
 /*phone*/
 @media only screen and (max-width: 480px) {
-  
-
 }
