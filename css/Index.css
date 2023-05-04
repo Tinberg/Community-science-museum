@@ -59,8 +59,11 @@ input[type="date"],
 select {
   height: 35px;
   border-radius: 5px;
-  border: 1px solid #423e3e;
+  border: 1px solid black;
   padding: 5px;
+}
+.form-select {
+    background-color: white;
 }
 select optgroup {
   font-size: 1.5em;
@@ -68,7 +71,7 @@ select optgroup {
 
 input[type="submit"] {
   background-color: #e29351;
-  color: black;
+  color: white;
   font-weight: 700;
   padding: 0 15px;
   margin-top: 25px;
@@ -76,6 +79,7 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background-color: #fa5e02;
+  color: black;
 }
 .container2 {
   padding: 200px 0;
