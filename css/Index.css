@@ -68,7 +68,7 @@ select optgroup {
 
 input[type="submit"] {
   background-color: #e29351;
-  color: white;
+  color: black;
   font-weight: 700;
   padding: 0 15px;
   margin-top: 25px;
