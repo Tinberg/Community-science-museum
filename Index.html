@@ -17,7 +17,7 @@
     <header>
         <input type="checkbox" id="toggle-hamburger">
         <nav>
-            <div class="navigation-top-bar">
+            <div class="navigation-top-bar max-width">
                 <a class="hamburger-only hamburger-logo" href="Index.html"><img src="/images/Mask%20group.png"
                         alt="Dinosaur logo"></a>
                 <a class="hamburger-only hamburger-logo" href="Index.html">Community<p>Science Museum</p></a>
@@ -58,9 +58,81 @@
         </nav>
     </header>
     <main>
-        <section class="section1-container">
+        <section class="container">
             <div class="img-container">
-                <h1 class="h1-1">Welcome to Community Science Museum</h1>
+                <div class="h1-subtext">
+                    <h1 class="h1-white">Welcome to Community Science Museum</h1>
+                    <p class="hero-text">Our exhibitions are designed for you to interact with, and play around to see
+                        science come to
+                        life.</p>
+                    <form class="activity-form" action="Index.html">
+                        <div class="container-form">
+                            <label class="form-label" for="date">Date</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+                        <div class="container-form">
+                            <label class="form-label" for="activity">Select Activity</label>
+                            <select size="" id="activity" name="activity">
+                                <option selected disabled>Select</option>
+                                <optgroup label="Events">
+                                    <option value="young-stars-club">Young stars club</option>
+                                    <option value="night-in-the-museum">Night in the Museum</option>
+                                    <option value="visiting-professor">Visiting Professor of Aeronautics</option>
+                                    <option value="energetica-exhibition">Energetica Exhibition on Loan</option>
+                                </optgroup>
+                                <optgroup label="Exhibitions">
+                                    <option value="cosmology">Cosmology</option>
+                                    <option value="evolution">Evolution</option>
+                                    <option value="biology-and-medicine">Biology and Medicine</option>
+                                    <option value="robotics-and-ai">Robotics and AI</option>
+                                    <option value="ecology">Ecology</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <input type="submit" value="Continue to booking">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="container2">
+            <div class="h3-background">
+                <h2 class="h2-white">Explore</h2>
+                <div class="container-h3">
+                    <div class="container-flex">
+                        <img class="h3-img"
+                            src="/images/Tinberg_exciting_kids_at_science_museum_908f5a27-cdf9-4d56-9c7c-86e7c585a330.png"
+                            alt="three kids doing science">
+                        <div class="h3-text">
+                            <h3>Young Stars Club</h3>
+                            <div class="day-time">
+                                <p>Saturday</p>
+                                <p>10.00 - 13.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-flex">
+                        <img class="h3-img"
+                            src="/images/Tinberg_happy_groupe_of_students_get_guided_tour_by_a_employee__d8674090-2593-44ef-99ab-68ae80dec691.png"
+                            alt="teacher and a groupe of students">
+                        <div class="h3-text">
+                            <h3>Teachers And Students</h3>
+                            <div class="day-time">
+                                <p>Place of learning and exploring</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-flex">
+                        <img class="h3-img"
+                            src="/images/Tinberg_researcher_with_lab_coat_science_glasses_handshake_7565a5da-fe0f-4448-a310-7dcf964b808e.png"
+                            alt="two men shaking hands">
+                        <div class="h3-text">
+                            <h3>Researchers</h3>
+                            <div class="day-time">
+                                <p>Get involved with our team</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

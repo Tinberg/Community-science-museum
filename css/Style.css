@@ -5,9 +5,19 @@
   border: 0;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
+}
+html{
+  background-color: #B1DDD3;
 }
 body {
   background-color: #E2EBE9;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.max-width{
+  max-width: 1440px;
+  margin: 0 auto;
 }
 main {
   padding-top: 106px;
@@ -15,11 +25,26 @@ main {
 h1 {
   font-size: 2.5em;
 }
-.h1-1 {
+.h1-white {
   color: white;
 }
-.h1-2 {
+.h1-black {
   color:#423E3E;
+}
+h2 {
+  font-size: 1.875em;
+}
+.h2-white{
+  color: white;
+}
+.h2-black {
+  color:#423e3e;
+}
+
+
+.p-dark-18 {
+  font-size: 1.125em;
+  color: #423E3E;
 }
 a {
   color: white;
@@ -122,12 +147,7 @@ a {
   padding: 10px 5px;
 }
 
-.main-content {
-  padding-top: 500px;
-  padding-bottom: 500px;
-  display: flex;
-  justify-content: center;
-}
+
 
 /*desktop*/
 @media only screen and (min-width: 1028px) {
@@ -169,6 +189,9 @@ a {
   }
   .ul-container .desktop-only {
     display: none;
+  }
+  main {
+    padding-top: 101px;
   }
 }
 
