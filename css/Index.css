@@ -71,7 +71,7 @@ select optgroup {
 
 input[type="submit"] {
   background-color: #e29351;
-  color: white;
+  color: #19235C;
   font-weight: 700;
   padding: 0 15px;
   margin-top: 25px;
@@ -79,7 +79,6 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background-color: #fa5e02;
-  color: black;
 }
 .container2 {
   padding: 200px 0;
