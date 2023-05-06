@@ -183,7 +183,8 @@ figcaption {
 }
 
 .container3 {
-  margin-top: 100px;
+  margin: 100px 0 125px;
+  
 }
 .news {
   margin-top: 10px;
@@ -197,15 +198,13 @@ figcaption {
   display: flex;
  
 }
-.h2-exhibitions{
-  color: white;
-  margin: 10px 0 30px;
-}
+
 
 .img-exhibitions {
   height: 300px;
   width: 300px;
   border-radius: 50%;
+  margin-top: 40px;
 }
 
 .h3-exhibitions {
