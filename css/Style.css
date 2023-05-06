@@ -51,13 +51,9 @@ h1 {
 h2 {
   font-size: var(--font-size-h2);
 }
-.h2-white{
-  color: var(--white-font-color);
-}
 .h2-black {
   color: var(--black-font-color)
 }
-
 .font-w700 {
   font-weight: var(--font-weight-bold);
 }
