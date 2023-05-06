@@ -36,7 +36,8 @@
   color: white;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
-  padding: 25px 0 40px;
+  height: 150px;
+  
 }
 h1 {
   margin-bottom: 20px;
@@ -46,11 +47,11 @@ h1 {
   font-size: 1.125em;
 }
 .activity-form {
-  top: 630px;
+  top: 40px;
   background-color: #fbf8f3;
   width: 70%;
   padding: 30px 30px 35px;
-  position: absolute;
+  position: relative;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
@@ -83,7 +84,7 @@ select optgroup {
 input[type="submit"] {
   background-color: #e29351;
   color: black;
-  padding: 0 15px;
+  padding: 13px 25px;
   margin-top: 25px;
   border-radius: 5px;
 }
@@ -251,7 +252,15 @@ figcaption {
   .scroll-label {
     display: block;
   }
-  
+  .activity-form {
+    flex-direction: column;
+  }
+  .img-container {
+    margin-bottom: 140px;
+  }
+  .container-form {
+    padding: 10px;
+  }
 }
 
 

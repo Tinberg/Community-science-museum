@@ -36,9 +36,6 @@ body {
   
 }
 
-main {
-  padding-top: 105px;
-}
 h1 {
   font-size: var(--font-size-h1);
 }
@@ -181,6 +178,16 @@ a {
 /*----------Tablet and phone----------*/
 /*----------Hamburger----------*/
 @media only screen and (max-width: 1027px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  body {
+    font-size: 1em;
+  }
+  
   nav .ul-container {
     flex-direction: column;
     justify-content: space-between;
@@ -210,13 +217,14 @@ a {
   .ul-container .desktop-only {
     display: none;
   }
-  main {
-    padding-top: 101px;
-  }
+  
 }
 /*----------Tablet and phone----------*/
 /*----------Footer----------*/
 @media only screen and (max-width: 705px) {
+  h1 {
+    font-size: 1.5em;
+  }
   .footer-container {
     flex-direction: column;
   }
@@ -230,6 +238,7 @@ a {
   .logo-text {
     padding: 15px 10px;
   }
+ 
 }
 
 /*----------phone----------*/
