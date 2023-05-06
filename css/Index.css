@@ -92,11 +92,13 @@ input[type="submit"]:hover {
 }
 .container2 {
   padding: 200px 0 100px;
+  
 }
 .h2-background {
   background-color: var(--orange-background-color);
   text-align: center;
   padding-top: 30px;
+  
 }
 .container-h3 {
   display: flex;
@@ -132,6 +134,11 @@ input[type="submit"]:hover {
   display: flex;
   margin-top: 10px;
   justify-content: space-around;
+}
+
+.fa-arrow-right {
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 .background-gallery1 {
@@ -199,7 +206,6 @@ figcaption {
  
 }
 
-
 .img-exhibitions {
   height: 300px;
   width: 300px;
@@ -216,6 +222,36 @@ figcaption {
 }
 .container-flex:hover .img-exhibitions {
   animation: bounce 1s infinite;
+}
+.container-flex:hover .h3-exhibitions {
+  background-color: #e29351;
+  color: white;
+}
+
+
+/*----------Desktop----------*/
+@media only screen and (min-width: 1028px){
+  .scroll-label {
+    display: none;
+  }
+
+}
+
+
+/*----------Tablet and phone----------*/
+/*----------Hamburger----------*/
+@media only screen and (max-width: 1027px) {
+  .container-h3 {
+    overflow-x: scroll;
+    justify-content: space-between;
+  }
+  .container-flex {
+    margin: min(15px)
+  }
+  .scroll-label {
+    display: block;
+  }
+  
 }
 
 
