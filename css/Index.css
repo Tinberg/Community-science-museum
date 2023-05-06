@@ -4,9 +4,9 @@
   position: relative;
 }
 .img-container {
-  background-image: url(/images/Tinberg_solar_system._sun_in_the_background._child_color._blue__bb52698c-20fc-4ee3-b5e0-aab8d8c30981.png);
-  width: 1440px;
-  max-width: 100%;
+  background-image: url(/images/Tinberg_solar_system._sun_in_the_background._child_color._blue__bb52698c-20fc-4ee3-b5e0-aab8d8c30981_11zon.png);
+  background-repeat: no-repeat;
+  background-position: center;
   height: 650px;
   max-height: 100%;
   object-fit: cover;
@@ -46,8 +46,6 @@ h1 {
 
 .form-label {
   color: #423e3e;
-  font-size: 1em;
-  font-weight: 600;
   padding-bottom: 10px;
 }
 .container-form {
@@ -63,7 +61,7 @@ select {
   padding: 5px;
 }
 .form-select {
-    background-color: white;
+  background-color: white;
 }
 select optgroup {
   font-size: 1.5em;
@@ -71,8 +69,7 @@ select optgroup {
 
 input[type="submit"] {
   background-color: #e29351;
-  color: #19235C;
-  font-weight: 700;
+  color: black;
   padding: 0 15px;
   margin-top: 25px;
   border-radius: 5px;
@@ -81,10 +78,10 @@ input[type="submit"]:hover {
   background-color: #fa5e02;
 }
 .container2 {
-  padding: 200px 0;
+  padding: 200px 0 100px;
 }
 .h3-background {
-  background-color: #e29351;
+  background-color: var(--orange-background-color);
   text-align: center;
   padding-top: 30px;
 }
@@ -97,7 +94,13 @@ input[type="submit"]:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 }
+.container-flex:hover .h3-text {
+  background-color: var(--light-blue-background-color);
+  color: white;
+}
+
 .h3-img {
   width: 340px;
   height: 240px;
@@ -110,12 +113,66 @@ input[type="submit"]:hover {
   border-radius: 0 0 15px 15px;
   margin-bottom: 60px;
   min-width: 340px;
-  
-  
 }
+
 .day-time {
   display: flex;
   margin-top: 10px;
   justify-content: space-around;
 }
 
+.background-gallery1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--dark-white-background-color);
+  padding: 25px;
+  border-radius: 15px 15px 0 0;
+}
+.gallery-img {
+  max-height: 700px;
+  height: 100%;
+  width: 1440px;
+  scroll-snap-align: center;
+}
+
+.gallery {
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+figcaption {
+  justify-content: center;
+  display: flex;
+  background-color: var(--dark-white-background-color);
+  bottom: 10px;
+  position: relative;
+  padding: 3px;
+}
+.background-gallery2 {
+  background-color: var(--dark-white-background-color);
+  padding: 25px;
+  border-radius: 0 0 15px 15px;
+  position: relative;
+}
+.gallery-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.gallery-flex2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.container3 {
+  margin-top: 100px;
+}
+.news {
+  margin-top: 10px;
+}

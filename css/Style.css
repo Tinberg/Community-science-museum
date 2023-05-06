@@ -1,3 +1,18 @@
+/*----------Global styles----------*/
+:root{
+  --orange-background-color: #E29351;
+  --dark-white-background-color: #FBF8F3;
+  --white-background-color: white;
+  --dark-blue-background-color:#19235C;
+  --light-blue-background-color: #51A0E2;
+  --white-font-color-h1:white;
+  --black-font-color-h1:black;
+  --black-font-color:black;
+  --font-weight-bold: 700;
+  --font-size-18: 1.125em;
+  --font-size-h2: 1.875em;
+  --font-size-h1: 2.5em;
+}
 * {
   font-family: sans-serif, arial;
   margin: 0;
@@ -7,49 +22,59 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
 html{
   background-color: #B1DDD3;
 }
 body {
   background-color: #E2EBE9;
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
+  box-shadow: -10px 0 10px 0 rgba(0, 0, 0, 0.2),
+  10px 0 10px rgba(0, 0, 0, 0.2);
+  scrollbar-color: #E29351;
 }
-.max-width{
-  max-width: 1440px;
-  margin: 0 auto;
-}
+
 main {
-  padding-top: 106px;
+  padding-top: 105px;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: var(--font-size-h1);
 }
 .h1-white {
-  color: white;
+  color: var(--white-font-color-h1);
 }
 .h1-black {
-  color:#423E3E;
+  color:var(--black-font-color-h1);
 }
 h2 {
-  font-size: 1.875em;
+  font-size: var(--font-size-h2);
 }
 .h2-white{
-  color: white;
+  color: var(--white-font-color);
 }
 .h2-black {
-  color:black;
+  color: var(--black-font-color)
 }
 
-
+.font-w700 {
+  font-weight: var(--font-weight-bold);
+}
 .p-dark-18 {
-  font-size: 1.125em;
-  color: black;
+  font-size: var(--font-size-18);
+  color: var(--black-font-color);
 }
 a {
   color: white;
 }
 
+.max-width{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*----------Header----------*/
 #toggle-hamburger {
   display: none;
 }
@@ -72,7 +97,7 @@ a {
 
 .navigation-top-bar {
   display: flex;
-  background-color: #19235c;
+  background-color: #19235C;
   font-size: 1.25em;
   align-items: center;
   justify-content: center;
@@ -101,7 +126,7 @@ a {
   transition: 0.5s;
   cursor: pointer;
 }
-
+/*----------Footer----------*/
 .footer-container {
   color: white;
   background-color: #19235c;
@@ -116,7 +141,6 @@ a {
 }
 .footer-top-text {
   padding: 15px 0;
-  font-weight: 700;
 }
 .footer-text {
   padding: 3px 0;
@@ -149,7 +173,7 @@ a {
 
 
 
-/*desktop*/
+/*----------Desktop----------*/
 @media only screen and (min-width: 1028px) {
   .hamburger {
     display: none;
@@ -158,8 +182,8 @@ a {
     display: none;
   }
 }
-
-/*Hamburger*/
+/*----------Tablet and phone----------*/
+/*----------Hamburger----------*/
 @media only screen and (max-width: 1027px) {
   nav .ul-container {
     flex-direction: column;
@@ -194,8 +218,8 @@ a {
     padding-top: 101px;
   }
 }
-
-/*Footer*/
+/*----------Tablet and phone----------*/
+/*----------Footer----------*/
 @media only screen and (max-width: 705px) {
   .footer-container {
     flex-direction: column;
@@ -212,6 +236,6 @@ a {
   }
 }
 
-/*phone*/
+/*----------phone----------*/
 @media only screen and (max-width: 480px) {
 }
