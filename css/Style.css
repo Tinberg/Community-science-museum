@@ -1,6 +1,7 @@
 /*----------Global styles----------*/
 :root{
   --orange-background-color: #E29351;
+  --hover-orange-background-color:#fa5e02;
   --dark-white-background-color: #FBF8F3;
   --white-background-color: white;
   --dark-blue-background-color:#19235C;
@@ -11,7 +12,7 @@
   --font-weight-bold: 700;
   --font-size-18: 1.125rem;
   --font-size-16: 1rem;
-  --font-size-h3: 1.17rem;
+  --font-size-h3: 1.4rem;
   --font-size-h2: 1.875rem;
   --font-size-h1: 2.5rem;
 }
@@ -36,8 +37,7 @@ body {
   margin: 0 auto;
   box-shadow: -10px 0 10px 0 rgba(0, 0, 0, 0.2),
   10px 0 10px rgba(0, 0, 0, 0.2);
-  
-  
+  font-size: var(--font-size-18);
 }
 
 h1 {
@@ -58,18 +58,15 @@ h2 {
 h3 {
   font-size: var(--font-size-h3);
 }
-p {
-  font-size: var(--font-size-16);
-}
-.p-dark-18 {
-  font-size: var(--font-size-18);
-  color: var(--black-font-color);
-}
+
 .font-w700 {
   font-weight: var(--font-weight-bold);
 }
 a {
   color: white;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .max-width{
@@ -89,7 +86,6 @@ a {
   padding-right: 30px;
 }
 .unchecked {
-  cursor: pointer;
   font-size: 2.5rem;
   color: white;
 }
@@ -127,7 +123,6 @@ a {
   background-color: white;
   border-radius: 5px;
   transition: 0.5s;
-  cursor: pointer;
 }
 /*----------Footer----------*/
 .footer-container {
@@ -168,7 +163,6 @@ a {
   flex-direction: column;
   padding: 15px 20px;
   align-items: center;
-  cursor: pointer;
 }
 
 .social-media-text {
@@ -178,7 +172,7 @@ a {
 
 
 /*----------Desktop----------*/
-@media only screen and (min-width: 1028px) {
+@media only screen and (min-width: 1190px) {
   .hamburger {
     display: none;
   }
@@ -188,15 +182,18 @@ a {
 }
 /*----------Tablet and phone----------*/
 /*----------Hamburger----------*/
-@media only screen and (max-width: 1027px) {
+@media only screen and (max-width: 1189px) {
   h1 {
     font-size: 2rem;
   }
   h2 {
     font-size: 1.6rem;
   }
+  h3 {
+    font-size: 1.2rem;
+  }
   body {
-    font-size: 1rem;
+    font-size: var(--font-size-16);
   }
   
   nav .ul-container {
@@ -233,9 +230,19 @@ a {
 /*----------Tablet and phone----------*/
 /*----------Footer----------*/
 @media only screen and (max-width: 705px) {
-  h1 {
+  /*h1 {
     font-size: 1.5rem;
   }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: var(--font-size-16);
+  }
+  body {
+    font-size: .9rem;
+  }*/
+  
   .footer-container {
     flex-direction: column;
   }
