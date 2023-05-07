@@ -82,14 +82,15 @@ select optgroup {
   font-size: 1.5rem;
 }
 
-input[type="submit"] {
+.primary-button {
   background-color: var(--orange-background-color);
   color: var(--black-font-color);
   padding: 13px 25px;
+  
   margin-top: 25px;
   border-radius: 5px;
 }
-input[type="submit"]:hover {
+.primary-button{
   background-color: var(--hover-orange-background-color);
 }
 .container2 {
