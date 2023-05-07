@@ -44,7 +44,7 @@ h1 {
 }
 
 .hero-text {
-  font-size: 1.125em;
+  font-size: 1.125rem;
 }
 .activity-form {
   top: 40px;
@@ -78,7 +78,7 @@ select {
   background-color: white;
 }
 select optgroup {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 input[type="submit"] {
@@ -138,7 +138,7 @@ input[type="submit"]:hover {
 }
 
 .fa-arrow-right {
-  font-size: 2em;
+  font-size: 2rem;
   margin-top: 10px;
 }
 
