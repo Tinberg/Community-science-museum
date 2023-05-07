@@ -62,9 +62,7 @@ h1 {
   color: #423e3e;
   padding-bottom: 10px;
 }
-.form-input {
-  min-width: 50px;
-}
+
 .container-form {
   display: flex;
   flex-direction: column;
@@ -77,10 +75,11 @@ select {
   border: 1px solid black;
   padding: 5px;
   width: 100%;
-}
-.form-select {
+  min-width: 200px;
   background-color: white;
+  
 }
+
 select optgroup {
   font-size: 1.5rem;
 }
