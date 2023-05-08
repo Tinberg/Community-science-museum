@@ -4,10 +4,9 @@
   }
   50% {
     transform: translateY(-20px);
-
   }
   100% {
-    transform:translateY(0)
+    transform: translateY(0);
   }
 }
 
@@ -18,7 +17,6 @@
 }
 .img-container {
   background-image: url(/images/Tinberg_solar_system._sun_in_the_background._child_color._blue__bb52698c-20fc-4ee3-b5e0-aab8d8c30981_11zon.png);
-  background-repeat: no-repeat;
   background-position: center;
   height: 650px;
   max-height: 100%;
@@ -37,12 +35,10 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
   height: 150px;
-  
 }
 h1 {
   margin-bottom: 20px;
 }
-
 
 .activity-form {
   top: 40px;
@@ -75,33 +71,19 @@ select {
   width: 100%;
   min-width: 200px;
   background-color: var(--white-background-color);
-  
 }
 
 select optgroup {
   font-size: 1.5rem;
 }
 
-.primary-button {
-  background-color: var(--orange-background-color);
-  color: var(--black-font-color);
-  padding: 13px 25px;
-  
-  margin-top: 25px;
-  border-radius: 5px;
-}
-.primary-button:hover {
-  background-color: var(--hover-orange-background-color);
-}
 .container2 {
   padding: 200px 0 100px;
-  
 }
 .h2-background {
   background-color: var(--orange-background-color);
   text-align: center;
   padding-top: 30px;
-  
 }
 .container-h3 {
   display: flex;
@@ -143,7 +125,6 @@ select optgroup {
   margin-top: 10px;
 }
 
-
 .background-gallery1 {
   display: flex;
   flex-direction: column;
@@ -152,9 +133,9 @@ select optgroup {
   padding: 25px;
   border-radius: 15px 15px 0 0;
 }
+
 .gallery-img {
   max-height: 700px;
-  height: 100%;
   width: 1440px;
   scroll-snap-align: center;
 }
@@ -164,8 +145,10 @@ select optgroup {
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  flex-wrap: nowrap;
+  
+  
 }
-
 figcaption {
   justify-content: center;
   display: flex;
@@ -178,7 +161,7 @@ figcaption {
   background-color: var(--dark-white-background-color);
   padding: 25px;
   border-radius: 0 0 15px 15px;
-  position: relative;
+  
 }
 .gallery-flex {
   display: flex;
@@ -194,7 +177,6 @@ figcaption {
 
 .container3 {
   margin: 100px 0 125px;
-  
 }
 .news {
   margin-top: 10px;
@@ -206,7 +188,6 @@ figcaption {
   text-align: center;
   padding-top: 30px;
   display: flex;
- 
 }
 
 .img-exhibitions {
@@ -231,31 +212,28 @@ figcaption {
   color: white;
 }
 
-
 /*----------Desktop----------*/
-@media only screen and (min-width: 1190px){
+@media only screen and (min-width: 1190px) {
   .scroll-label {
     display: none;
   }
-
 }
 
+/*----------Tablet----------*/
 
-/*----------Tablet and phone----------*/
-/*----------Hamburger----------*/
 @media only screen and (max-width: 1189px) {
   .container-h3 {
     overflow-x: scroll;
     justify-content: space-between;
   }
   .container-flex {
-    margin: min(15px)
+    margin: min(15px);
   }
   .scroll-label {
     display: block;
   }
   .h1-subtext {
-   height: 120px;
+    height: 120px;
   }
   .activity-form {
     flex-direction: column;
@@ -268,17 +246,28 @@ figcaption {
   .container-form {
     padding: 10px;
   }
+  .gallery-flex2 {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .gallery-img {
+    width: 100vw;
+    height: 100vw;
+    
+  }
+  figure {
+    height: 100%;
+  }
 }
-@media only screen and (max-width: 705px){
+
+/*----------Tablet and Phone----------*/
+
+@media only screen and (max-width: 705px) {
   .h1-subtext {
     height: 160px;
     text-align: center;
-    
-    
   }
-  h1 {
-    
-  }
+ 
 }
-
-

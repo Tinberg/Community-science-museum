@@ -68,6 +68,16 @@ a {
 .cursor-pointer {
   cursor: pointer;
 }
+.primary-button {
+  background-color: var(--orange-background-color);
+  color: var(--black-font-color);
+  padding: 13px 25px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.primary-button:hover {
+  background-color: var(--hover-orange-background-color);
+}
 
 .max-width{
   max-width: 1440px;
