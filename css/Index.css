@@ -68,7 +68,7 @@ select {
   border: 1px solid black;
   padding: 5px;
   width: 100%;
-  min-width: 200px;
+  min-width: 250px;
   background-color: var(--white-background-color);
 }
 
@@ -268,17 +268,14 @@ figcaption {
   .h1-subtext {
     height: 150px;
     text-align: center;
-    
   }
  
 }
 
 /*----------phone----------*/
 @media only screen and (max-width: 480px) {
-  .h1-subtext {
-    
-    
-  }
+ 
+ 
 
 }
 
