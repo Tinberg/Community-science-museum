@@ -61,6 +61,7 @@ h3 {
 .font-w700 {
   font-weight: var(--font-weight-bold);
 }
+
 a {
   color: white;
 }
@@ -73,6 +74,8 @@ a {
   padding: 13px 25px;
   margin-top: 25px;
   border-radius: 5px;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-bold);
 }
 .primary-button:hover {
   background-color: var(--hover-orange-background-color);
@@ -92,7 +95,7 @@ a {
 }
 .hamburger {
   margin-left: auto;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 .unchecked {
   font-size: 2.5rem;
@@ -190,19 +193,9 @@ a {
 /*----------Tablet and phone----------*/
 /*----------Hamburger----------*/
 @media only screen and (max-width: 1189px) {
-  h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1.6rem;
-  }
-  h3 {
-    font-size: 1.2rem;
-  }
-  body {
-    font-size: var(--font-size-16);
-  }
-
+html {
+  font-size: 15px;
+}
   nav .ul-container {
     flex-direction: column;
     justify-content: space-between;
@@ -236,6 +229,9 @@ a {
 /*----------Tablet and phone----------*/
 /*----------Footer----------*/
 @media only screen and (max-width: 705px) {
+  html {
+    font-size: 14px;
+  }
   .footer-container {
     flex-direction: column;
   }
@@ -253,16 +249,21 @@ a {
 
 /*----------phone----------*/
 @media only screen and (max-width: 480px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-  h2 {
-    font-size: 1.2rem;
-  }
-  h3 {
-    font-size: var(--font-size-16);
-  }
-  body {
-    font-size: 0.9rem;
-  }
+ html {
+  font-size: 13px;
+ }
+
+ /*
+ h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: var(--font-size-16);
+}
+body {
+  font-size: 0.9rem;
+}*/
 }
