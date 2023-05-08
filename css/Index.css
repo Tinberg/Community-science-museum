@@ -234,11 +234,14 @@ figcaption {
   }
   .h1-subtext {
     height: 120px;
+    
   }
   .activity-form {
     flex-direction: column;
     position: absolute;
     top: 650px;
+    width:100%;
+    
   }
   .img-container {
     margin-bottom: 170px;
@@ -257,17 +260,25 @@ figcaption {
     height: 100vw;
     
   }
-  figure {
-    height: 100%;
-  }
+  
 }
 
 /*----------Tablet and Phone----------*/
 
 @media only screen and (max-width: 705px) {
   .h1-subtext {
-    height: 160px;
+    height: 140px;
     text-align: center;
   }
  
 }
+
+/*----------phone----------*/
+@media only screen and (max-width: 480px) {
+  .h1-subtext {
+    height: 130px;
+    
+  }
+
+}
+

@@ -1,14 +1,14 @@
 /*----------Global styles----------*/
-:root{
-  --orange-background-color: #E29351;
-  --hover-orange-background-color:#fa5e02;
-  --dark-white-background-color: #FBF8F3;
+:root {
+  --orange-background-color: #e29351;
+  --hover-orange-background-color: #fa5e02;
+  --dark-white-background-color: #fbf8f3;
   --white-background-color: white;
-  --dark-blue-background-color:#19235C;
-  --light-blue-background-color: #51A0E2;
-  --white-font-color-h1:white;
-  --black-font-color-h1:black;
-  --black-font-color:black;
+  --dark-blue-background-color: #19235c;
+  --light-blue-background-color: #51a0e2;
+  --white-font-color-h1: white;
+  --black-font-color-h1: black;
+  --black-font-color: black;
   --font-weight-bold: 700;
   --font-size-18: 1.125rem;
   --font-size-16: 1rem;
@@ -26,17 +26,16 @@
   box-sizing: border-box;
 }
 
-html{
-  background-color: #B1DDD3;
+html {
+  background-color: #b1ddd3;
   font-size: 16px;
 }
 body {
-  background-color: #E2EBE9;
+  background-color: #e2ebe9;
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  box-shadow: -10px 0 10px 0 rgba(0, 0, 0, 0.2),
-  10px 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: -10px 0 10px 0 rgba(0, 0, 0, 0.2), 10px 0 10px rgba(0, 0, 0, 0.2);
   font-size: var(--font-size-18);
 }
 
@@ -47,13 +46,13 @@ h1 {
   color: var(--white-font-color-h1);
 }
 .h1-black {
-  color:var(--black-font-color-h1);
+  color: var(--black-font-color-h1);
 }
 h2 {
   font-size: var(--font-size-h2);
 }
 .h2-black {
-  color: var(--black-font-color)
+  color: var(--black-font-color);
 }
 h3 {
   font-size: var(--font-size-h3);
@@ -79,7 +78,7 @@ a {
   background-color: var(--hover-orange-background-color);
 }
 
-.max-width{
+.max-width {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -106,7 +105,7 @@ a {
 
 .navigation-top-bar {
   display: flex;
-  background-color: #19235C;
+  background-color: #19235c;
   font-size: 1.25rem;
   align-items: center;
   justify-content: center;
@@ -179,8 +178,6 @@ a {
   padding: 10px 5px;
 }
 
-
-
 /*----------Desktop----------*/
 @media only screen and (min-width: 1190px) {
   .hamburger {
@@ -205,7 +202,7 @@ a {
   body {
     font-size: var(--font-size-16);
   }
-  
+
   nav .ul-container {
     flex-direction: column;
     justify-content: space-between;
@@ -235,24 +232,10 @@ a {
   .ul-container .desktop-only {
     display: none;
   }
-  
 }
 /*----------Tablet and phone----------*/
 /*----------Footer----------*/
 @media only screen and (max-width: 705px) {
-  /*h1 {
-    font-size: 1.5rem;
-  }
-  h2 {
-    font-size: 1.2rem;
-  }
-  h3 {
-    font-size: var(--font-size-16);
-  }
-  body {
-    font-size: .9rem;
-  }*/
-  
   .footer-container {
     flex-direction: column;
   }
@@ -266,9 +249,20 @@ a {
   .logo-text {
     padding: 15px 10px;
   }
- 
 }
 
 /*----------phone----------*/
 @media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: var(--font-size-16);
+  }
+  body {
+    font-size: 0.9rem;
+  }
 }
