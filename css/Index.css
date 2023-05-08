@@ -241,6 +241,7 @@ figcaption {
     position: absolute;
     top: 650px;
     width:100%;
+    justify-content: center;
     
   }
   .img-container {
@@ -268,8 +269,7 @@ figcaption {
 @media only screen and (max-width: 705px) {
   .h1-subtext {
     height: 150px;
-    
-    align-items: center;
+    text-align: center;
   }
  
 }
