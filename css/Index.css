@@ -241,7 +241,7 @@ figcaption {
     position: absolute;
     top: 650px;
     width:100%;
-    justify-content: center;
+    align-items: center;
     
   }
   .img-container {
