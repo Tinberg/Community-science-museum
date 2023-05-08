@@ -26,7 +26,7 @@
   flex-direction: column;
 }
 
-.h1-subtext {
+.top-container {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -34,6 +34,9 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
   height: 150px;
+}
+.h1-container {
+  text-align: center;
 }
 h1 {
   margin-bottom: 20px;
@@ -49,6 +52,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   box-shadow: 0px 24px 48px 0 rgba(0, 0, 0, 0.1);
+  
 }
 
 .form-label {
@@ -68,7 +72,8 @@ select {
   border: 1px solid black;
   padding: 5px;
   width: 100%;
-  width: 250px;
+  min-width: 242px;
+  
   
   background-color: var(--white-background-color);
   
@@ -233,17 +238,11 @@ figcaption {
   .scroll-label {
     display: block;
   }
-  .h1-subtext {
-    height: 120px;
-    
-  }
+  
   .activity-form {
     flex-direction: column;
     position: absolute;
     top: 650px;
-    width:100%;
-    
-    
   }
   .img-container {
     margin-bottom: 170px;
@@ -261,25 +260,30 @@ figcaption {
     width: 100vw;
     height: 100vw;
   }
-  .activity-form {
-    justify-content: center;
-    align-items: center;
-    
-  }
+  
   
 }
 
 /*----------Tablet and Phone----------*/
 
 @media only screen and (max-width: 705px) {
-  .h1-subtext {
-    height: 150px;
+  .activity-form {
+    width:100%;
+  }
   }
  
-}
+
 
 /*----------phone----------*/
 @media only screen and (max-width: 480px) {
+  .activity-form {
+    align-items: center;
+  }
+  input[type="date"],
+select {
+  width: 250px;
+  
+}
  
  
 
