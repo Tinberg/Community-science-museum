@@ -13,16 +13,16 @@
   display: flex;
   justify-content: center;
   position: relative;
+  
 }
 .img-container {
   background-image: url(/images/Tinberg_solar_system._sun_in_the_background._child_color._blue__bb52698c-20fc-4ee3-b5e0-aab8d8c30981_11zon.png);
   background-position: center;
   height: 650px;
-  max-height: 100%;
   object-fit: cover;
+  
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   flex-direction: column;
 }
 
