@@ -68,7 +68,7 @@ select {
   border: 1px solid black;
   padding: 5px;
   width: 100%;
-  min-width: 200px;
+  width: 250px;
   
   background-color: var(--white-background-color);
   
@@ -260,6 +260,10 @@ figcaption {
   .gallery-img {
     width: 100vw;
     height: 100vw;
+  }
+  .activity-form {
+    justify-content: center;
+    align-items: center;
     
   }
   
