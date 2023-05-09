@@ -65,6 +65,9 @@ h3 {
 
 a{
   color: black;
+  display: inline-block;
+  /*
+  line-height: 0.6;*/
 }
 
 .cursor-pointer {
