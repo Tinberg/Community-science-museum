@@ -204,6 +204,9 @@ a {
   h3 {
     font-size: 1.2rem;
   }
+  .navigation-top-bar {
+    padding: 0px 15px;
+  }
   
   nav .ul-container {
     flex-direction: column;
@@ -253,6 +256,7 @@ a {
   .logo-text {
     padding: 15px 10px;
   }
+  
 }
 
 /*----------phone----------*/
@@ -266,10 +270,6 @@ a {
   h3 {
     font-size: 1.1rem;
   }
-  .navigation-top-bar {
-    
-    padding: 0px 15px;
-    
-  }
+  
  
 }
