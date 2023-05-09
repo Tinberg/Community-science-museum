@@ -12,9 +12,6 @@
 .container {
   display: flex;
   justify-content: center;
-  position: relative;
-  
-  
 }
 .img-container {
   background-image: url(/images/Tinberg_solar_system._sun_in_the_background._child_color._blue__bb52698c-20fc-4ee3-b5e0-aab8d8c30981_11zon1.png);
@@ -26,7 +23,6 @@
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  
 }
 
 .top-container {
@@ -55,7 +51,6 @@ h1 {
   display: flex;
   justify-content: space-around;
   box-shadow: 0px 24px 48px 0 rgba(0, 0, 0, 0.1);
-  
 }
 
 .form-label {
@@ -77,11 +72,13 @@ select {
   width: 100%;
   min-width: 242px;
   background-color: var(--white-background-color);
-  
 }
 
 select optgroup {
   font-size: 1.5rem;
+}
+.button-container {
+  text-align: center;
 }
 
 .container2 {
@@ -95,16 +92,15 @@ select optgroup {
 .container-h3 {
   display: flex;
   justify-content: space-around;
-  padding: 30px 0 40px ;
+  padding: 30px 0 40px;
 }
-.container-flex {
+.inner-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 60px;
-  
 }
-.container-flex:hover .h3-text {
+.inner-container:hover .h3-text {
   background-color: var(--light-blue-background-color);
   color: white;
 }
@@ -120,8 +116,6 @@ select optgroup {
   padding: 20px 10px;
   border-radius: 0 0 15px 15px;
   min-width: 380px;
-  
-  
 }
 
 .day-time {
@@ -156,7 +150,6 @@ select optgroup {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   flex-wrap: nowrap;
-  
 }
 figcaption {
   justify-content: center;
@@ -170,7 +163,6 @@ figcaption {
   background-color: var(--dark-white-background-color);
   padding: 25px;
   border-radius: 0 0 15px 15px;
-  
 }
 .gallery-flex {
   display: flex;
@@ -213,10 +205,10 @@ figcaption {
   margin: 30px 40px 0;
   min-width: 340px;
 }
-.container-flex:hover .img-exhibitions {
+.inner-container:hover .img-exhibitions {
   animation: bounce 1s infinite;
 }
-.container-flex:hover .h3-exhibitions {
+.inner-container:hover .h3-exhibitions {
   background-color: #e29351;
   color: white;
 }
@@ -234,18 +226,14 @@ figcaption {
   .container-h3 {
     overflow-x: scroll;
     justify-content: space-between;
-    
-    
-      
-  
   }
-  .container-flex {
+  .inner-container {
     margin: min(15px);
   }
   .scroll-label {
     display: block;
   }
-  
+
   .activity-form {
     flex-direction: column;
     position: absolute;
@@ -262,25 +250,20 @@ figcaption {
     gap: 15px;
     align-items: center;
   }
-  
+
   .gallery-img {
     width: 100vw;
     height: 50vw;
   }
-  
-  
 }
 
 /*----------Tablet and Phone----------*/
 
 @media only screen and (max-width: 705px) {
   .activity-form {
-    width:100%;
+    width: 100%;
   }
- 
-  }
- 
-
+}
 
 /*----------phone----------*/
 @media only screen and (max-width: 480px) {
@@ -288,12 +271,7 @@ figcaption {
     align-items: center;
   }
   input[type="date"],
-select {
-  width: 250px;
+  select {
+    width: 250px;
+  }
 }
-
- 
- 
-
-}
-

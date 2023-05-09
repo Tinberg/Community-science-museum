@@ -62,12 +62,8 @@ h3 {
   font-weight: var(--font-weight-bold);
 }
 
-
-a{
+a {
   color: black;
-  display: inline-block;
-  /*
-  line-height: 0.6;*/
 }
 
 .cursor-pointer {
@@ -81,6 +77,7 @@ a{
   border-radius: 5px;
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-bold);
+  width: 205.53px;
 }
 .primary-button:hover {
   background-color: var(--hover-orange-background-color);
@@ -90,6 +87,12 @@ a{
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+}
+.fixed-position-fix {
+  padding-top: 96px;
+}
+.flex-container {
+  display: flex;
 }
 
 /*----------Header----------*/
@@ -143,7 +146,8 @@ a{
   border-radius: 5px;
   transition: 0.5s;
 }
-footer a, header a {
+footer a,
+header a {
   color: white;
 }
 /*----------Footer----------*/
@@ -215,7 +219,7 @@ footer a, header a {
   .navigation-top-bar {
     padding: 0px 15px;
   }
-  
+
   nav .ul-container {
     flex-direction: column;
     justify-content: space-between;
@@ -264,7 +268,6 @@ footer a, header a {
   .logo-text {
     padding: 15px 10px;
   }
-  
 }
 
 /*----------phone----------*/
@@ -278,6 +281,4 @@ footer a, header a {
   h3 {
     font-size: 1.1rem;
   }
-  
- 
 }
