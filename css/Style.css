@@ -114,7 +114,7 @@ a {
   font-size: 1.25rem;
   align-items: center;
   justify-content: center;
-  padding: 5px 15px;
+  padding: 10px 15px;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -265,6 +265,11 @@ a {
   }
   h3 {
     font-size: 1.1rem;
+  }
+  .navigation-top-bar {
+    
+    padding: 0px 15px;
+    
   }
  
 }
