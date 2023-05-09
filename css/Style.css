@@ -62,9 +62,11 @@ h3 {
   font-weight: var(--font-weight-bold);
 }
 
-a {
-  color: white;
+
+a{
+  color: black;
 }
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -137,6 +139,9 @@ a {
   background-color: white;
   border-radius: 5px;
   transition: 0.5s;
+}
+footer a, header a {
+  color: white;
 }
 /*----------Footer----------*/
 .footer-container {
