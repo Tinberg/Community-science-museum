@@ -114,7 +114,7 @@ a {
   font-size: 1.25rem;
   align-items: center;
   justify-content: center;
-  padding: 15px;
+  padding: 5px 15px;
   position: fixed;
   width: 100%;
   z-index: 1;
