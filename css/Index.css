@@ -14,16 +14,17 @@
   justify-content: center;
   position: relative;
   
+  
 }
 .img-container {
-  background-image: url(/images/Tinberg_solar_system._sun_in_the_background._child_color._blue__bb52698c-20fc-4ee3-b5e0-aab8d8c30981_11zon.png);
-  background-position: center;
+  background-image: url(/images/Tinberg_solar_system._sun_in_the_background._child_color._blue__bb52698c-20fc-4ee3-b5e0-aab8d8c30981_11zon1.png);
   height: 650px;
-  object-fit: cover;
+  background-size: 100% 100%;
   
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
+  
 }
 
 .top-container {
@@ -270,6 +271,7 @@ figcaption {
   .activity-form {
     width:100%;
   }
+ 
   }
  
 
@@ -282,8 +284,8 @@ figcaption {
   input[type="date"],
 select {
   width: 250px;
-  
 }
+
  
  
 
