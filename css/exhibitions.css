@@ -1,17 +1,57 @@
 .top-section {
+    display: flex;
+    justify-content: center;
+   
     
 }
-.h1-subtext {
-    
-}
-.h1-center {
+.top-section-container {
+    background-color: #FBF8F3;
+    width: 80%;
     text-align: center;
-    padding-top: ;
+    padding: 35px;
+    margin: 20px 0;
+    border-radius: 15px;
+    
 }
 .subtext {
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
+    padding-top: 50px;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-h3);
+    align-items: center;
+}
+
+.exhibitions {
+    padding: 15px;
+    border-radius: 5px;
+}
+.exhibitions:hover {
+    color: white;
+}
+.cosmology:hover{
+    background-color: #19235C;
+    color: white;
+}
+.evolution:hover {
+    background-color: #AB9385;
+}
+.biology-medicine:hover {
+    background-color:#E29351 ;
+}
+.robotics-ai:hover{
+    background-color:#8A99A9 ;
+}
+.ecology:hover {
+    background-color: #51A0E2;
+}
+
+
+.rocket-img {
+    transform: rotate(180deg);
+    
+}
+.subtext {
+    display: flex; 
+    justify-content: space-around;
 }
 
 .booknow-button {

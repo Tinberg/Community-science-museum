@@ -90,10 +90,9 @@ a {
 }
 .fixed-position-fix {
   padding-top: 96px;
-}
-.flex-container {
   display: flex;
 }
+
 
 /*----------Header----------*/
 #toggle-hamburger {
