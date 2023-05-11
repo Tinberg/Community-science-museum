@@ -13,12 +13,10 @@
   display: flex;
   justify-content: center;
 }
-.img-container {
+.hero-img {
   background-image: url(/images/Tinberg_solar_system._sun_in_the_background._child_color._blue__bb52698c-20fc-4ee3-b5e0-aab8d8c30981_11zon1.png);
   height: 650px;
-  /*
-  background-size: 100% 100%;
-  */
+  background-size: cover;
   background-position: center;
   display: flex;
   justify-content: flex-end;
@@ -32,21 +30,22 @@
   color: white;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
-  height: 150px;
+  height: 170px;
+  gap: 25px;
 }
 .h1-container {
   text-align: center;
+  padding: 0 10px;
 }
+
 h1 {
-  margin-bottom: 20px;
+ margin-bottom: 15px;
 }
 
 .activity-form {
-  top: 40px;
   background-color: var(--dark-white-background-color);
   width: 70%;
   padding: 30px 30px 35px;
-  position: relative;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
@@ -236,10 +235,8 @@ figcaption {
 
   .activity-form {
     flex-direction: column;
-    position: absolute;
-    top: 650px;
   }
-  .img-container {
+  .hero-img {
     margin-bottom: 170px;
   }
   .container-form {
@@ -263,7 +260,12 @@ figcaption {
   .activity-form {
     width: 100%;
   }
+  .hero-img {
+    height: 500px;
+    background-position: center left 40% ;
 }
+}
+
 
 /*----------phone----------*/
 @media only screen and (max-width: 480px) {
