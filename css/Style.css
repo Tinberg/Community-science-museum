@@ -57,7 +57,9 @@ h2 {
 h3 {
   font-size: var(--font-size-h3);
 }
-
+p {
+  line-height: 1.5;
+}
 .font-w700 {
   font-weight: var(--font-weight-bold);
 }
@@ -78,6 +80,7 @@ a {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-bold);
   width: 205.53px;
+  
 }
 .primary-button:hover {
   background-color: var(--hover-orange-background-color);

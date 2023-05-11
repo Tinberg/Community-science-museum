@@ -1,59 +1,115 @@
 .top-section {
-    display: flex;
-    justify-content: center;
-   
-    
+  display: flex;
+  justify-content: center;
 }
 .top-section-container {
-    background-color: #FBF8F3;
-    width: 80%;
-    text-align: center;
-    padding: 35px;
-    margin: 20px 0;
-    border-radius: 15px;
-    
+  background-color: #fbf8f3;
+  width: 90%;
+  text-align: center;
+  padding: 35px 35px 20px;
+  margin: 100px 0 50px;
+  border-radius: 15px;
 }
 .subtext {
-    padding-top: 50px;
-    font-weight: var(--font-weight-bold);
-    font-size: var(--font-size-h3);
-    align-items: center;
+  padding: 50px 0 15px;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-h3);
+  align-items: center;
 }
 
 .exhibitions {
-    padding: 15px;
-    border-radius: 5px;
+  padding: 15px;
+  border-radius: 5px;
 }
-.exhibitions:hover {
-    color: white;
+.exhibitions:hover p {
+  color: white;
 }
-.cosmology:hover{
-    background-color: #19235C;
-    color: white;
-}
-.evolution:hover {
-    background-color: #AB9385;
-}
-.biology-medicine:hover {
-    background-color:#E29351 ;
-}
-.robotics-ai:hover{
-    background-color:#8A99A9 ;
-}
-.ecology:hover {
-    background-color: #51A0E2;
+.cosmology:hover {
+  background-color: #19235c;
 }
 
+.evolution:hover {
+  background-color: #ab9385;
+}
+
+.biology-medicine:hover {
+  background-color: #e29351;
+}
+
+.robotics-ai:hover {
+  background-color: #8a99a9;
+}
+
+.ecology:hover {
+  background-color: #51a0e2;
+}
 
 .rocket-img {
-    transform: rotate(180deg);
-    
-}
-.subtext {
-    display: flex; 
-    justify-content: space-around;
+  transform: rotate(180deg);
 }
 
-.booknow-button {
-    
+.book-now {
+  padding-top: 35px;
+}
+.subtext {
+  display: flex;
+  justify-content: space-around;
+}
+
+.background {
+  padding: 100px;
+  margin: -6px 0 50px;
+}
+.background-cosmology {
+  background-color: #19235c;
+}
+.background-evolution {
+  background-color: #ab9385;
+}
+.background-biology-medicine {
+  background-color: #e29351;
+}
+.background-robotics-ai {
+  background-color: #8a99a9;
+}
+.background-ecology {
+  background-color: #51a0e2;
+}
+.container {
+  background-color: #fbf8f3;
+  border-radius: 15px;
+  padding: 30px;
+}
+.h2-exhibitions {
+  padding-bottom: 20px;
+}
+.bottom-p {
+  padding-top: 25px;
+}
+.exhibition-button {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/*----------Tablet----------*/
+
+@media only screen and (max-width: 1189px) {
+  .subtext {
+    flex-direction: column;
+  }
+}
+
+/*----------Tablet and Phone----------*/
+
+@media only screen and (max-width: 705px) {
+    .top-section-container {
+        width: 100%;
+    }
+    .background {
+        padding: 30px 0;
+        margin-bottom: 25px;
+    }
 }
