@@ -141,24 +141,23 @@ a {
   padding: 10px 15px;
   position: fixed;
   width: 100%;
-  z-index: 1;
-  
+  z-index: 10;
 }
+
 .ul-container {
   display: flex;
   align-items: center;
 }
+
 .tyrannosaurus {
   width: 200px;
   height: 200px;
 }
 
-
 .navigation-top-bar .nav-link {
   padding: 15px 25px;
   display: block;
 }
-
 
 .nav-link:hover .white-font, .nav-link:hover {
   color: black;

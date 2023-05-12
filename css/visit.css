@@ -111,7 +111,7 @@
   left: 0;
   top: 0;
   position: absolute;
-  padding:80px 150px 150px  ;
+  padding:80px 150px 100px  ;
  }
  
 figcaption {
@@ -119,12 +119,30 @@ figcaption {
   padding: 15px;
   border-radius: 10px;
  }
- .information {
+ .row {
   background-color: var(--dark-white-background-color);
- }
- .logo-symbols {
+  padding-top: 100px;
   display: flex;
+  flex-direction: row;
+ }
+ .col {
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+ }
+ .information-logo {
+  width: 50px;
+  height: 50px;
+ }
+ .information-h3 {
+  padding-top: 20px;
+ }
+ .information-text {
+  text-align: center;
+  max-width: 480px;
+  min-height: 200px;
+  padding: 50px 50px 0;
   
  }
 
@@ -138,7 +156,10 @@ figcaption {
         padding: 70px 75px
     }
     .map iframe {
-      padding:80px 50px 120px  ;
+      padding:80px 50px 80px  ;
+     }
+     .row {
+      flex-direction: column;
      }
     
     
@@ -156,9 +177,13 @@ figcaption {
         text-align: left;
         align-items: flex-start;
     }
-   
+    
     .map iframe {
-      padding:60px 10px 10px  ;
+      padding:0;
+     }
+     .fig-caption {
+      position: relative;
+      bottom: 60px;
      }
     
 
@@ -172,4 +197,9 @@ figcaption {
     .container {
         width: 100%;
       }
+      .information-text {
+        min-height: 250px;
+        padding: 25px 25px 0;
+       }
+      
 }
