@@ -8,7 +8,10 @@
   --light-blue-background-color: #51a0e2;
   --white-font-color-h1: white;
   --black-font-color-h1: black;
+  --black-font-color-h2: black;
+  --black-font-color-h3: black;
   --black-font-color: black;
+  --white-font-color: white;
   --font-weight-bold: 700;
   --font-size-18: 1.125rem;
   --font-size-16: 1rem;
@@ -42,24 +45,31 @@ body {
 h1 {
   font-size: var(--font-size-h1);
 }
+
 .h1-white {
   color: var(--white-font-color-h1);
 }
+
 .h1-black {
   color: var(--black-font-color-h1);
 }
+
 h2 {
   font-size: var(--font-size-h2);
+  color: var(--black-font-color-h2);
 }
-.h2-black {
-  color: var(--black-font-color);
-}
+
 h3 {
   font-size: var(--font-size-h3);
+  color: var(--black-font-color-h3);
 }
+
+
 p {
   line-height: 1.5;
+  color: var(--black-font-color);
 }
+
 .font-w700 {
   font-weight: var(--font-weight-bold);
 }
@@ -68,9 +78,14 @@ a {
   color: black;
 }
 
+.white-font {
+  color: var(--white-font-color);
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
+
 .primary-button {
   background-color: var(--orange-background-color);
   color: var(--black-font-color);
@@ -80,8 +95,8 @@ a {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-bold);
   width: 205.53px;
-  
 }
+
 .primary-button:hover {
   background-color: var(--hover-orange-background-color);
 }
@@ -95,7 +110,6 @@ a {
   padding-top: 96px;
   display: flex;
 }
-
 
 /*----------Header----------*/
 #toggle-hamburger {
@@ -142,16 +156,19 @@ a {
   padding: 15px 25px;
   display: block;
 }
+
 .navigation-top-bar .nav-link:hover {
-  color: #19235c;
+  color: black;
   background-color: white;
   border-radius: 5px;
   transition: 0.5s;
 }
 footer a,
 header a {
-  color: white;
+  color: var(--white-font-color);
 }
+
+
 /*----------Footer----------*/
 .footer-container {
   color: white;
@@ -168,9 +185,11 @@ header a {
 }
 .footer-top-text {
   padding: 15px 0;
+  color: var(--white-font-color);
 }
 .footer-text {
   padding: 3px 0;
+  color: var(--white-font-color);
 }
 .link-text:hover {
   text-decoration: underline;
@@ -195,6 +214,7 @@ header a {
 
 .social-media-text {
   padding: 10px 5px;
+  color: var(--white-font-color);
 }
 
 /*----------Desktop----------*/

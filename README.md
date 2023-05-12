@@ -6,3 +6,5 @@ stikkord
 -I have used root to maintain my website in the future, when i have more time i will most likly change stuff and use it in my portfolio. that would be alot easier with the root. 
 - the only AI i used midjourney for images only.
 - i chose not to us UL and LI in my section for expalem special events
+-i chose to set font color to all text, so i know its the right color regardless of web browser
+-embed map code on visit us site is copyed from google maps, and it had inline styling by default. 

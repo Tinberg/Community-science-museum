@@ -12,10 +12,136 @@
     margin-bottom: 25px;
   }
 
+  .sub-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--dark-white-background-color);
+    padding: 100px 200px;
+    margin: 70px 0;
+  }
+  .free-entrance {
+    padding-top: 50px;
+  }
+
+  .container {
+    background-color: var(--dark-white-background-color) ;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+ .legend {
+    text-align: center;
+    padding: 25px;
+ }
+
+  .row {
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .col {
+    flex: 1 1 255px;
+  }
+ 
+ .section {
+    flex-direction: column;
+    display: flex;
+    padding: 25px;
+ }
+ select optgroup {
+    font-size: 1.3rem;
+  }
+
+ .label-class {
+    padding-bottom: 20px;
+ }
+
+ input, select {
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    min-width: 252px;
+    background-color: var(--white-background-color);
+ }
+
+ .message {
+    padding-bottom: 100px;
+ }
+
+ .submit-button {
+    text-align: center;
+ }
+
+ .time-location {
+  display: flex;
+  background-color: var(--dark-white-background-color);
+  margin: 70px 0;
+  padding: 35px 25px;
+  justify-content: center;
+  text-align: center;
+ }
+ .time-location p {
+  line-height: 2;
+ }
+ .time-location-h {
+  padding-bottom: 20px;
+ }
+ .bottom-time-location {
+  padding-bottom: 40px;
+ }
+ .map {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50%;
+  position: relative;
+  margin-bottom: 75px;
+ }
+ .map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  padding:80px 150px 150px  ;
+ }
+ 
+figcaption {
+  background-color: var(--dark-white-background-color);
+  padding: 15px;
+  border-radius: 10px;
+ }
+ .information {
+  background-color: var(--dark-white-background-color);
+ }
+ .logo-symbols {
+  display: flex;
+  justify-content: space-around;
+  
+ }
+
+
+
+
   /*----------Tablet----------*/
 
 @media only screen and (max-width: 1189px) {
-   
+    .sub-text {
+        padding: 70px 75px
+    }
+    .map iframe {
+      padding:80px 50px 120px  ;
+     }
+    
+    
 }
 
 /*----------Tablet and Phone----------*/
@@ -25,11 +151,25 @@
         background-image: url(/images/Tinberg_museum_building_at_dawn_realistic_photograph_slightly_f_72f640dc-bea6-418d-adc5-559608ab7e1e_11zon2.jpg);
         height: 450px;
     }
+    .sub-text {
+        padding: 30px 40px;
+        text-align: left;
+        align-items: flex-start;
+    }
+   
+    .map iframe {
+      padding:60px 10px 10px  ;
+     }
+    
 
 }
 
   /*----------phone----------*/
 @media only screen and (max-width: 480px) {
- 
-  
+    .sub-text {
+        padding: 20px 25px;
+    }
+    .container {
+        width: 100%;
+      }
 }

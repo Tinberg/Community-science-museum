@@ -74,7 +74,7 @@ select {
 }
 
 select optgroup {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .button-container {
   text-align: center;
@@ -99,9 +99,12 @@ select optgroup {
   align-items: center;
   margin-bottom: 60px;
 }
+
 .inner-container:hover .h3-text {
   background-color: var(--light-blue-background-color);
-  color: white;
+}
+.inner-container:hover .text-h3 {
+  color: var(--white-font-color);
 }
 
 .h3-img {
@@ -208,8 +211,8 @@ figcaption {
   animation: bounce 1s infinite;
 }
 .inner-container:hover .h3-exhibitions {
-  background-color: #e29351;
-  color: white;
+  background-color: var(--orange-background-color);
+  color: var(--white-font-color);
 }
 
 /*----------Desktop----------*/

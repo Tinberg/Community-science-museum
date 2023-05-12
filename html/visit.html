@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Visit us. Booking and message form, Opening hours, Location and facilities">
+    <meta name="description" content="Visit us. Booking and message form, Opening hours, Location and facilities">
     <title>Visit us|Community science museum</title>
     <link rel="Stylesheet" href="/css/style.css">
     <link rel="Stylesheet" href="/css/visit.css">
     <script src="https://kit.fontawesome.com/0933736d52.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <input type="checkbox" id="toggle-hamburger">
@@ -18,7 +19,8 @@
             <div class="navigation-top-bar max-width">
                 <a class="hamburger-only hamburger-logo cursor-pointer" href="/Index.html"><img
                         src="/images/Mask%20group.png" alt="Dinosaur logo"></a>
-                <a class="hamburger-only hamburger-logo cursor-pointer" href="/Index.html">Community<p>Science Museum
+                <a class="hamburger-only hamburger-logo cursor-pointer" href="/Index.html">Community<p
+                        class="white-font">Science Museum
                     </p>
                 </a>
                 <ul class="ul-container">
@@ -27,7 +29,8 @@
                                 alt="Dinosaur logo"></a>
                     </li>
                     <li>
-                        <a class="nav-link desktop-only cursor-pointer" href="/Index.html">Community<p>Science Museum
+                        <a class="nav-link desktop-only cursor-pointer" href="/Index.html">Community<p
+                                class="white-font">Science Museum
                             </p>
                         </a>
                     </li>
@@ -66,7 +69,108 @@
                     <h1 class="h1-white">Visit us</h1>
                 </div>
             </div>
+            <div class="sub-text">
+                <p>There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and
+                    include a handy printed guide of the museum. If you would like to organize a guided tour for
+                    your group of 6 or more people, please contact us to arrange the tour.</p>
+                <p class="free-entrance font-w700">Free entrance</p>
+            </div>
+        </section>
+        <section class="container">
+            <fieldset>
+                <legend class="legend">
+                    <h2>Book activity or send us a message</h2>
+                </legend>
+                <form class="form-csm" action="/Index.html">
+                    <div class="row">
+                        <div class="col">
+                            <div class="section">
+                                <label class="label-class" for="activity2">Activity</label>
+                                <select class="form-select" id="activity2" name="activity2">
+                                    <option selected disabled>Select</option>
+                                    <optgroup label="Events">
+                                        <option value="young-stars-club">Young stars club</option>
+                                        <option value="night-in-the-museum">Night in the Museum</option>
+                                        <option value="visiting-professor">Visiting Professor of Aeronautics</option>
+                                        <option value="energetica-exhibition">Energetica Exhibition on Loan</option>
+                                    </optgroup>
+                                    <optgroup label="Exhibitions">
+                                        <option value="cosmology">Cosmology</option>
+                                        <option value="evolution">Evolution</option>
+                                        <option value="biology-and-medicine">Biology and Medicine</option>
+                                        <option value="robotics-and-ai">Robotics and AI</option>
+                                        <option value="ecology">Ecology</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="section">
+                                <label class="label-class" for="name">Name</label>
+                                <input id="name" type="text">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="section">
+                                <label class="label-class" for="date">Date</label>
+                                <input id="date" type="date">
+                            </div>
+                            <div class="section">
+                                <label class="label-class" for="number">Number of tickets</label>
+                                <input id="number" type="number">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="section">
+                            <label class="label-class" for="email">E-mail</label>
+                            <input id="email" type="email">
+                        </div>
+                        <div class="section">
+                            <label class="label-class" for="message">Message</label>
+                            <input class="message" id="message" type="text">
+                        </div>
+                        <div class="submit-button">
+                            <button class="primary-button cursor-pointer" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+        <section class="time-location">
+            <div>
+                <h3 class="time-location-h">Opening hours</h3>
+                <p>Monday: closed</p>
+                <p>Tuesday- Thursday: 10.00-18.00</p>
+                <p>Friday: 10.00-19.00</p>
+                <p>Saturday: 09.00-16.00</p>
+                <p class="bottom-time-location">Sunday: 09.00-13.00</p>
+                <h3 class="time-location-h">Location</h3>
+                <p>Science street 10</p>
+                <p>Science city</p>
+            </div>
+        </section>
+        <section>
+            <figure class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1189.3460313879016!2d10.727771068667519!3d59.91166991933561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7c5399d139%3A0x978ac6154ec4378f!2sNasjonalmuseets%20administrasjon!5e0!3m2!1sno!2sno!4v1683887341747!5m2!1sno!2sno"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <figcaption>Dronning Mauds gate 4, 0250 Oslo</figcaption>
+            </figure>
+        </section>
+        <section class="information">
+           <div class="logo-symbols">
+            <img src="/images/accessibility-symbol.png" alt="red wheelchair logo">
+            <img src="/images/coffee.png" alt="yellow logo of a cofe">
+            <img src="/images/shop.png" alt="blue loge of a shop">
+           </div>
+           <div class="h3-text">
+            <h3>Accessibility</h3>
+            <h3>Museum Café</h3>
+            <h3>Museum shop</h3>
+           </div>
         </section>
     </main>
 </body>
+
 </html>
