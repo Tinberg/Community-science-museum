@@ -142,6 +142,7 @@ a {
   position: fixed;
   width: 100%;
   z-index: 1;
+  
 }
 .ul-container {
   display: flex;
@@ -152,17 +153,19 @@ a {
   height: 200px;
 }
 
+
 .navigation-top-bar .nav-link {
   padding: 15px 25px;
   display: block;
 }
 
-.navigation-top-bar .nav-link:hover {
+
+.nav-link:hover .white-font, .nav-link:hover {
   color: black;
   background-color: white;
   border-radius: 5px;
-  transition: 0.5s;
 }
+
 footer a,
 header a {
   color: var(--white-font-color);
