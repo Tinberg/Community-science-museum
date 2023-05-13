@@ -119,14 +119,14 @@ figcaption {
   padding: 15px;
   border-radius: 10px;
  }
- .row {
+ .row2 {
   background-color: var(--dark-white-background-color);
   padding-top: 60px;
   margin-bottom: 100px;
   display: flex;
   flex-direction: row;
  }
- .col {
+ .col2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -159,7 +159,7 @@ figcaption {
     .map iframe {
       padding:80px 50px 80px  ;
      }
-     .row {
+     .row2 {
       flex-direction: column;
      }
     
@@ -199,8 +199,9 @@ figcaption {
         width: 100%;
       }
       .information-text {
-        min-height: 250px;
+        min-height: 175px;
         padding: 25px 25px 0;
        }
+
       
 }
