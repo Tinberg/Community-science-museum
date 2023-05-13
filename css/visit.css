@@ -1,103 +1,104 @@
 .hero-img {
-    background-image: url(/images/Tinberg_museum_building_at_dawn_realistic_photograph_slightly_f_72f640dc-bea6-418d-adc5-559608ab7e1e_11zon.jpg);
-    height: 650px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-  }
-  .h1-container {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 25px;
-  }
+  background-image: url(/images/Tinberg_museum_building_at_dawn_realistic_photograph_slightly_f_72f640dc-bea6-418d-adc5-559608ab7e1e_11zon.jpg);
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.h1-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 25px;
+}
 
-  .sub-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: var(--dark-white-background-color);
-    padding: 100px 200px;
-    margin: 70px 0;
-  }
-  .free-entrance {
-    padding-top: 50px;
-  }
+.sub-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--dark-white-background-color);
+  padding: 100px 200px;
+  margin: 70px 0;
+}
+.free-entrance {
+  padding-top: 50px;
+}
 
-  .container {
-    background-color: var(--dark-white-background-color) ;
-    display: flex;
-    justify-content: center;
-    padding: 25px;
-    border-radius: 15px;
-    width: 80%;
-    margin: 0 auto;
-  }
-  
- .legend {
-    text-align: center;
-    padding: 25px;
- }
+.container {
+  background-color: var(--dark-white-background-color);
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
 
-  .row {
-    display:flex;
-    flex-wrap: wrap;
-  }
-  .col {
-    flex: 1 1 255px;
-  }
- 
- .section {
-    flex-direction: column;
-    display: flex;
-    padding: 25px;
- }
- select optgroup {
-    font-size: 1.3rem;
-  }
+.legend {
+  text-align: center;
+  padding: 25px;
+}
 
- .label-class {
-    padding-bottom: 20px;
- }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 1 1 255px;
+}
 
- input, select {
-    height: 35px;
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 10px;
-    width: 100%;
-    min-width: 252px;
-    background-color: var(--white-background-color);
- }
+.section {
+  flex-direction: column;
+  display: flex;
+  padding: 25px;
+}
+select optgroup {
+  font-size: 1.3rem;
+}
 
- .message {
-    padding-bottom: 100px;
- }
+.label-class {
+  padding-bottom: 20px;
+}
 
- .submit-button {
-    text-align: center;
- }
+input,
+select {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 100%;
+  min-width: 252px;
+  background-color: var(--white-background-color);
+}
 
- .time-location {
+.message {
+  padding-bottom: 100px;
+}
+
+.submit-button {
+  text-align: center;
+}
+
+.time-location {
   display: flex;
   background-color: var(--dark-white-background-color);
   margin: 70px 0;
   padding: 35px 25px;
   justify-content: center;
   text-align: center;
- }
- .time-location p {
+}
+.time-location p {
   line-height: 2;
- }
- .time-location-h {
+}
+.time-location-h {
   padding-bottom: 20px;
- }
- .bottom-time-location {
+}
+.bottom-time-location {
   padding-bottom: 40px;
- }
- .map {
+}
+.map {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -105,104 +106,96 @@
   padding-bottom: 50%;
   position: relative;
   margin-bottom: 75px;
- }
- .map iframe {
+}
+.map iframe {
   height: 100%;
   width: 100%;
   left: 0;
   top: 0;
   position: absolute;
-  padding:80px 150px 100px  ;
- }
- 
+  padding: 80px 150px 100px;
+}
+
 figcaption {
   background-color: var(--dark-white-background-color);
   padding: 15px;
   border-radius: 10px;
- }
- .row2 {
+}
+.row2 {
   background-color: var(--dark-white-background-color);
   padding-top: 60px;
   margin-bottom: 100px;
   display: flex;
   flex-direction: row;
- }
- .col2 {
+}
+.col2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
- }
- .information-logo {
+}
+.information-logo {
   width: 50px;
   height: 50px;
- }
- .information-h3 {
+}
+.information-h3 {
   padding-top: 20px;
- }
- .information-text {
+}
+.information-text {
   text-align: center;
   max-width: 480px;
   min-height: 200px;
   padding: 50px 50px 0;
-  
- }
+}
 
-
-
-
-  /*----------Tablet----------*/
+/*----------Tablet----------*/
 
 @media only screen and (max-width: 1189px) {
-    .sub-text {
-        padding: 70px 75px
-    }
-    .map iframe {
-      padding:80px 50px 80px  ;
-     }
-     .row2 {
-      flex-direction: column;
-     }
-    
-    
+  .sub-text {
+    padding: 70px 75px;
+  }
+  .map iframe {
+    padding: 80px 50px 80px;
+  }
+  .row2 {
+    flex-direction: column;
+  }
 }
 
 /*----------Tablet and Phone----------*/
 
 @media only screen and (max-width: 705px) {
-    .hero-img {
-        background-image: url(/images/Tinberg_museum_building_at_dawn_realistic_photograph_slightly_f_72f640dc-bea6-418d-adc5-559608ab7e1e_11zon2.jpg);
-        height: 450px;
-    }
-    .sub-text {
-        padding: 30px 40px;
-        text-align: left;
-        align-items: flex-start;
-    }
-    
-    .map iframe {
-      padding:0;
-     }
-     .fig-caption {
-      position: relative;
-      bottom: 60px;
-     }
-    
-
+  .hero-img {
+    background-image: url(/images/Tinberg_museum_building_at_dawn_realistic_photograph_slightly_f_72f640dc-bea6-418d-adc5-559608ab7e1e_11zon2.jpg);
+    height: 450px;
+  }
+  .sub-text {
+    padding: 30px 40px;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .free-entrance {
+    align-self: center;
+  }
+  .map iframe {
+    padding: 0;
+  }
+  .fig-caption {
+    position: relative;
+    bottom: 60px;
+  }
 }
 
-  /*----------phone----------*/
+/*----------phone----------*/
 @media only screen and (max-width: 480px) {
-    .sub-text {
-        padding: 20px 25px;
-    }
-    .container {
-        width: 100%;
-      }
-      .information-text {
-        min-height: 175px;
-        padding: 25px 25px 0;
-       }
-
-      
+  .sub-text {
+    padding: 20px 25px;
+  }
+  .container {
+    width: 100%;
+  }
+  .information-text {
+    min-height: 175px;
+    padding: 25px 25px 0;
+  }
 }
