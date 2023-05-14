@@ -1,0 +1,76 @@
+.hero-img {
+    background-image: url(/images/Tinberg_inside_a_science_museum_.realistic_photograph._realisti_7e3a72bc-e447-4e76-a0fd-ece7e67eee91_11zon.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  .h1-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 25px;
+  }
+  .content-section {
+    margin: 50px 0;
+  }
+  .night-museum {
+    background-color: #AB9385;
+  }
+  .container {
+   
+  }
+  .img-container {
+    display: flex;
+    padding:50px 25px 50px;
+    justify-content: space-around;
+    
+  }
+  .image {
+    width: 48%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .background {
+    background-color: var(--dark-white-background-color);
+    padding: 20px;
+    margin: 100px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .icon-night-museum {
+    position: relative;
+  }
+  
+  .icon-night-museum::before,
+  .icon-night-museum::after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url(/images/Tinberg_white_tyrannosaurus_rex_skeleton_logo_35a45d85-f700-43a3-a65c-1eca46773047-removebg-preview.png);
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .icon-night-museum::before {
+    left: 50px;
+  }
+  
+  .icon-night-museum::after {
+    right: 50px;
+    background-image: url(/images/Tinberg_white_tyrannosaurus_rex_skeleton_logo_35a45d85-f700-43a3-a65c-1eca46773047-removebg-preview.png);
+  }
+
+  /*----------Tablet and Phone----------*/
+
+@media only screen and (max-width: 705px){
+    
+
+}
+  
