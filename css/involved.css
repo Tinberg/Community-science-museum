@@ -23,7 +23,7 @@
 }
 .background-color {
   background-color: var(--dark-white-background-color);
-  padding: 100px;
+  padding: 75px 100px 0px;
   border-radius: 20px;
 }
 
@@ -37,10 +37,16 @@
   background-color: var(--light-blue-background-color);
 }
 h2 {
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 .paragraph {
   padding: 15px 0;
+}
+.contact-button {
+  text-align: center;
+  padding: 50px 0;
+  display:flex;
+  justify-content: center;
 }
 
 /*----------Tablet and Phone----------*/
@@ -50,7 +56,7 @@ h2 {
         margin: 50px 50px 0;
       }
       .background-color {
-        padding:50px;
+        padding:50px 50px 0;
         
       }
 
@@ -66,20 +72,28 @@ h2 {
     margin:25px 15px 0;
   }
   .background-color {
-    padding:15px;
+    padding:20px 20px 0;
+  }
+  h2 {
+    padding-bottom: 25px;
   }
 }
 /*----------phone----------*/
 @media only screen and (max-width: 480px) {
     .background {
         padding: 15px;
-        margin:25px 0px 0;
+        margin:25px 0 0;
       }
       .background-color {
-        padding:15px;
+        padding:15px 15px 0;
       }
       h2 {
         text-align: center;
+      }
+      .contact-button {
+        
+        padding: 35px 0;
+        
       }
 
 }

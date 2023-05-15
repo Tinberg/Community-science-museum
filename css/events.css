@@ -18,9 +18,7 @@
   .night-museum {
     background-color: #AB9385;
   }
-  .container {
-   
-  }
+  
   .img-container {
     display: flex;
     padding:50px 25px 50px;
@@ -35,8 +33,9 @@
   
   .background {
     background-color: var(--dark-white-background-color);
-    padding: 20px;
+    padding: 35px 35px 0;
     margin: 100px;
+    border-radius: 20px;
   }
   h2 {
     text-align: center;
@@ -48,7 +47,6 @@
   .icon-night-museum::before,
   .icon-night-museum::after {
     content: "";
-    display: inline-block;
     width: 70px;
     height: 70px;
     background-image: url(/images/Tinberg_white_tyrannosaurus_rex_skeleton_logo_35a45d85-f700-43a3-a65c-1eca46773047-removebg-preview.png);
@@ -59,12 +57,21 @@
   }
   
   .icon-night-museum::before {
-    left: 50px;
+    left: -25px;
   }
   
   .icon-night-museum::after {
-    right: 50px;
-    background-image: url(/images/Tinberg_white_tyrannosaurus_rex_skeleton_logo_35a45d85-f700-43a3-a65c-1eca46773047-removebg-preview.png);
+    right: -25px;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  .primary-button {
+    margin-top: 60px;
   }
 
   /*----------Tablet and Phone----------*/
