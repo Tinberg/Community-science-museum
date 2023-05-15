@@ -24,10 +24,11 @@
     padding:50px 25px 50px;
     justify-content: space-around;
     
+    
   }
   .image {
     width: 48%;
-    height: auto;
+    height: 40%;
     border-radius: 20px;
   }
   
@@ -40,12 +41,12 @@
   h2 {
     text-align: center;
   }
-  .icon-night-museum {
+  .icon-event {
     position: relative;
   }
   
-  .icon-night-museum::before,
-  .icon-night-museum::after {
+  .icon-event::before,
+  .icon-event::after {
     content: "";
     width: 70px;
     height: 70px;
@@ -56,13 +57,41 @@
     transform: translateY(-50%);
   }
   
-  .icon-night-museum::before {
+  .icon-event::before {
     left: -25px;
   }
   
-  .icon-night-museum::after {
+  .icon-event::after {
     right: -25px;
   }
+
+  .icon-event2 {
+    position: relative;
+  }
+  
+  .icon-event2::before,
+  .icon-event2::after {
+    content: "";
+    width: 55px;
+    height: 55px;
+    background-image: url(/images/6802221_antenna_astronomy_communication_galaxy_satellite_icon\ 6.png);
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .icon-event2::before {
+    left: -25px;
+
+  }
+  
+  .icon-event2::after {
+    right: -25px;
+    background-image: url(/images/6802221_antenna_astronomy_communication_galaxy_satellite_icon\ 7.png);
+  }
+  
+
   .text-container {
     display: flex;
     flex-direction: column;
