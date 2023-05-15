@@ -9,3 +9,4 @@ stikkord
 -i chose to set font color to all text, so i know its the right color regardless of web browser
 -embed map code on visit us site is copyed from google maps, and it had inline styling by default. 
 - i used my time to take marking criteria into consideration. so i have no fancy keyframes. i hope this not effect my grade, as it didn't say anything in the marking criteria.  
+-i decided to add icons on my events bcs,they have contextual meaning, and the icons will probably be changed alot if you think about that it is special events. 

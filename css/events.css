@@ -1,7 +1,7 @@
 .hero-img {
     background-image: url(/images/Tinberg_inside_a_science_museum_.realistic_photograph._realisti_7e3a72bc-e447-4e76-a0fd-ece7e67eee91_11zon.jpg);
     height: 650px;
-    background-size: cover;
+    
     background-position: top;
     display: flex;
     justify-content: flex-end;
@@ -13,85 +13,55 @@
     padding: 25px;
   }
   .content-section {
-    margin: 50px 0;
+    margin: 50px 0 ;
+    padding-bottom: 5px;
   }
   .night-museum {
     background-color: #AB9385;
   }
+  .visiting-professor {
+    background-color: var(--dark-blue-background-color) ;
+  }
+  .energetica-loan {
+    background-color: var(--orange-background-color);
+  }
   
   .img-container {
     display: flex;
-    padding:50px 25px 50px;
+    padding:50px 25px 0px;
     justify-content: space-around;
-    
-    
   }
   .image {
     width: 48%;
     height: 40%;
+    max-height: 502.55px;
     border-radius: 20px;
   }
   
   .background {
     background-color: var(--dark-white-background-color);
-    padding: 35px 35px 0;
+    padding: 35px 35px 0px;
     margin: 100px;
     border-radius: 20px;
   }
-  h2 {
-    text-align: center;
-  }
-  .icon-event {
-    position: relative;
-  }
-  
-  .icon-event::before,
-  .icon-event::after {
-    content: "";
-    width: 70px;
-    height: 70px;
-    background-image: url(/images/Tinberg_white_tyrannosaurus_rex_skeleton_logo_35a45d85-f700-43a3-a65c-1eca46773047-removebg-preview.png);
-    background-size: contain;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  .icon-event::before {
-    left: -25px;
-  }
-  
-  .icon-event::after {
-    right: -25px;
-  }
 
-  .icon-event2 {
-    position: relative;
+  .icon-event {
+    display: flex;
+    justify-content: space-between;
   }
-  
-  .icon-event2::before,
-  .icon-event2::after {
-    content: "";
+  .icon-antenna {
     width: 55px;
     height: 55px;
-    background-image: url(/images/6802221_antenna_astronomy_communication_galaxy_satellite_icon\ 6.png);
-    background-size: contain;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
   }
-  
-  .icon-event2::before {
-    left: -25px;
+  .icon-dinosaur{
+    width: 70px;
+    height: 70px;
+  }
+  .icon-lightning {
+    width: 45px;
+    height: 45px;
 
   }
-  
-  .icon-event2::after {
-    right: -25px;
-    background-image: url(/images/6802221_antenna_astronomy_communication_galaxy_satellite_icon\ 7.png);
-  }
-  
-
   .text-container {
     display: flex;
     flex-direction: column;
@@ -101,12 +71,65 @@
   }
   .primary-button {
     margin-top: 60px;
+    text-align: center;
   }
+
+  /*----------Tablet and Phone----------*/
+@media only screen and (max-width: 1189px) {
+ .desktop {
+  display: none;
+  }
+  .icon-event {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+}
 
   /*----------Tablet and Phone----------*/
 
 @media only screen and (max-width: 705px){
+  .hero-img {
+    height: 450px;
+  }
+  .background {
+    background-color: var(--dark-white-background-color);
+    padding: 35px 35px 0px;
+    margin: 25px 0px;
+    border-radius: 20px;
+  }
+  .img-container {
+    flex-direction: column;
+    padding:20px;
+    gap: 10px;
+    align-items: center;
+  }
+  .image {
+    width: 90%;
+    height: 70%;
     
+  }
+  
+}
+
+/*----------phone----------*/
+@media only screen and (max-width: 480px) {
+  .img-container {
+    padding:15px 0 15px;
+    gap: 10px;
+  }
+  .image {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .background {
+    padding: 35px 0px 0px;
+  }
+  .text-container {
+    text-align: start;
+  }
 
 }
   
