@@ -1,0 +1,51 @@
+body {
+    background-image: url(/images/background_full2.png)
+   
+}
+
+.fixed-position-fix {
+    display: flex;
+  flex-direction: column;
+}
+.background {
+  background-color: var(--dark-white-background-color);
+  width: 80%;
+  align-self: center;
+  margin:75px 0;
+  border-radius: 20px;
+  padding: 25px;
+  
+}
+h1 {
+    text-align: center;
+    padding: 20px 0 75px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+.col1{
+    width: 50%;
+}
+.col2 {
+    text-align: center;
+    width: 35%;
+}
+.h2-text {
+    padding-top: 5px;
+}
+.bottom-p {
+    padding-top: 20px;
+}
+.h2-young-club {
+    padding-bottom: 30px;
+}
+.top-img {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+.young-club-text {
+    padding-top: 20px;
+}
+
