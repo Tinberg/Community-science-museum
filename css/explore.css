@@ -1,51 +1,71 @@
 body {
-    background-image: url(/images/background_full2.png)
-   
+  background-image: url(/images/background_explore.png);
 }
 
 .fixed-position-fix {
-    display: flex;
+  display: flex;
   flex-direction: column;
 }
-.background {
+.background-white {
   background-color: var(--dark-white-background-color);
   width: 80%;
   align-self: center;
-  margin:75px 0;
+  margin: 75px 0;
   border-radius: 20px;
-  padding: 25px;
-  
+  padding: 40px 25px 65px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
 }
 h1 {
-    text-align: center;
-    padding: 20px 0 75px;
+  text-align: center;
+  padding-bottom: 75px;
 }
 .row {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
-.col1{
-    width: 50%;
+.col1 {
+  width: 50%;
 }
 .col2 {
-    text-align: center;
-    width: 35%;
+  text-align: center;
+  width: 35%;
 }
 .h2-text {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 .bottom-p {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 .h2-young-club {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
-.top-img {
-    width: 350px;
-    height: 250px;
-    border-radius: 10px;
+.img {
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
 }
 .young-club-text {
-    padding-top: 20px;
+  padding-top: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.kids {
+  background-color: var(--orange-background-color);
+}
+.researchers {
+  background-color: var(--light-blue-background-color);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.margin-bot {
+  margin: 75px 0;
 }
 
+.content-space {
+  padding-top: 50px;
+}
