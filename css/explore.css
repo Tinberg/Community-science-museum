@@ -1,6 +1,5 @@
 body {
   background-image: url(/images/background_explore.png);
-  
 }
 
 .fixed-position-fix {
@@ -71,32 +70,50 @@ h1 {
   padding-top: 50px;
 }
 
-
 /*----------Tablet and Phone----------*/
 @media only screen and (max-width: 1189px) {
-    .row {
-        flex-direction: column;
-        align-items: center;
-    }
-    .col1,
-    .col2 {
-        width: 100%;
-    }
-    .img {
-        max-width: 100%;
-        height: auto;
-    }
-    h1 {
-        padding-bottom: 30px;
-    }
-    h2,
-    .h2-text {
-        text-align: center;
-    }
-    .h2-young-club {
-        padding: 30px 0;
-    }
-    body {
-        background-image: none;
-    }
+  body {
+    background-image: none;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col1,
+  .col2 {
+    width: 100%;
+  }
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    padding-bottom: 30px;
+  }
+  h2,
+  .h2-text {
+    text-align: center;
+  }
+  .h2-young-club {
+    padding: 30px 0;
+  }
+  .background-white {
+    width: 90%;
+    border-radius: 20px;
+    padding: 40px 25px 65px;
+  }
+  .margin-bot {
+    margin: 50px 0;
+  }
+}
+
+/*----------phone----------*/
+@media only screen and (max-width: 480px) {
+  .background-white {
+    width: 100%;
+    padding: 40px 15px 65px;
+  }
+  .margin-bot {
+    margin: 30px 0;
+  }
 }

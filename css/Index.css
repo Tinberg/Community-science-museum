@@ -39,7 +39,7 @@
 }
 
 h1 {
- margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .activity-form {
@@ -265,10 +265,9 @@ figcaption {
   }
   .hero-img {
     height: 500px;
-    background-position: center left 40% ;
+    background-position: center left 40%;
+  }
 }
-}
-
 
 /*----------phone----------*/
 @media only screen and (max-width: 480px) {
