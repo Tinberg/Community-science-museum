@@ -1,95 +1,93 @@
 .hero-img {
-    background-image: url(/images/Tinberg_inside_a_science_museum_.realistic_photograph._realisti_7e3a72bc-e447-4e76-a0fd-ece7e67eee91_11zon.jpg);
-    height: 650px;
-    
-    background-position: top;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-  }
-  .h1-container {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 25px;
-  }
-  .content-section {
-    margin: 50px 0 ;
-    padding-bottom: 5px;
-  }
-  .night-museum {
-    background-color: #AB9385;
-  }
-  .visiting-professor {
-    background-color: var(--dark-blue-background-color) ;
-  }
-  .energetica-loan {
-    background-color: var(--orange-background-color);
-  }
-  
-  .img-container {
-    display: flex;
-    padding:50px 25px 0px;
-    justify-content: space-around;
-  }
-  .image {
-    width: 48%;
-    height: 40%;
-    max-height: 502.55px;
-    border-radius: 20px;
-  }
-  
-  .background {
-    background-color: var(--dark-white-background-color);
-    padding: 35px 35px 0px;
-    margin: 100px;
-    border-radius: 20px;
-  }
+  background-image: url(/images/Tinberg_inside_a_science_museum_.realistic_photograph._realisti_7e3a72bc-e447-4e76-a0fd-ece7e67eee91_11zon.jpg);
+  height: 650px;
 
-  .icon-event {
-    display: flex;
-    justify-content: space-between;
-  }
-  .icon-antenna {
-    width: 55px;
-    height: 55px;
-  }
-  .icon-dinosaur{
-    width: 70px;
-    height: 70px;
-  }
-  .icon-lightning {
-    width: 45px;
-    height: 45px;
+  background-position: top;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.h1-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 25px;
+}
+.content-section {
+  margin: 50px 0;
+  padding-bottom: 5px;
+}
+.night-museum {
+  background-color: #ab9385;
+}
+.visiting-professor {
+  background-color: var(--dark-blue-background-color);
+}
+.energetica-loan {
+  background-color: var(--orange-background-color);
+}
 
-  }
-  .text-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding: 50px 20px;
-  }
-  .primary-button {
-    margin-top: 60px;
-    text-align: center;
-  }
+.img-container {
+  display: flex;
+  padding: 50px 25px 0px;
+  justify-content: space-around;
+}
+.image {
+  width: 48%;
+  height: 40%;
+  max-height: 502.55px;
+  border-radius: 20px;
+}
 
-  /*----------Tablet and Phone----------*/
+.background {
+  background-color: var(--dark-white-background-color);
+  padding: 35px 35px 0px;
+  margin: 100px;
+  border-radius: 20px;
+}
+
+.icon-event {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-antenna {
+  width: 55px;
+  height: 55px;
+}
+.icon-dinosaur {
+  width: 70px;
+  height: 70px;
+}
+.icon-lightning {
+  width: 45px;
+  height: 45px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+.primary-button {
+  margin-top: 60px;
+  text-align: center;
+}
+
+/*----------Tablet and Phone----------*/
 @media only screen and (max-width: 1189px) {
- .desktop {
-  display: none;
+  .desktop {
+    display: none;
   }
   .icon-event {
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
-
 }
 
-  /*----------Tablet and Phone----------*/
+/*----------Tablet and Phone----------*/
 
-@media only screen and (max-width: 705px){
+@media only screen and (max-width: 705px) {
   .hero-img {
     height: 450px;
   }
@@ -101,22 +99,20 @@
   }
   .img-container {
     flex-direction: column;
-    padding:20px;
+    padding: 20px;
     gap: 10px;
     align-items: center;
   }
   .image {
     width: 90%;
     height: 70%;
-    
   }
-  
 }
 
 /*----------phone----------*/
 @media only screen and (max-width: 480px) {
   .img-container {
-    padding:15px 0 15px;
+    padding: 15px 0 15px;
     gap: 10px;
   }
   .image {
@@ -130,6 +126,4 @@
   .text-container {
     text-align: start;
   }
-
 }
-  

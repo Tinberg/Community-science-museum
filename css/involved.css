@@ -45,21 +45,19 @@ h2 {
 .contact-button {
   text-align: center;
   padding: 50px 0;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
 /*----------Tablet and Phone----------*/
 @media only screen and (max-width: 1189px) {
-    .background {
-        padding: 50px;
-        margin: 50px 50px 0;
-      }
-      .background-color {
-        padding:50px 50px 0;
-        
-      }
-
+  .background {
+    padding: 50px;
+    margin: 50px 50px 0;
+  }
+  .background-color {
+    padding: 50px 50px 0;
+  }
 }
 /*----------Tablet and Phone----------*/
 
@@ -69,10 +67,10 @@ h2 {
   }
   .background {
     padding: 15px;
-    margin:25px 15px 0;
+    margin: 25px 15px 0;
   }
   .background-color {
-    padding:20px 20px 0;
+    padding: 20px 20px 0;
   }
   h2 {
     padding-bottom: 25px;
@@ -80,22 +78,17 @@ h2 {
 }
 /*----------phone----------*/
 @media only screen and (max-width: 480px) {
-    .background {
-        padding: 15px;
-        margin:25px 0 0;
-      }
-      .background-color {
-        padding:15px 15px 0;
-      }
-      h2 {
-        text-align: center;
-      }
-      .contact-button {
-        
-        padding: 35px 0;
-        
-      }
-
+  .background {
+    padding: 15px;
+    margin: 25px 0 0;
+  }
+  .background-color {
+    padding: 15px 15px 0;
+  }
+  h2 {
+    text-align: center;
+  }
+  .contact-button {
+    padding: 35px 0;
+  }
 }
-
-
