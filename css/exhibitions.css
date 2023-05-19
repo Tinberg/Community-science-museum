@@ -25,7 +25,7 @@
   color: white;
 }
 .cosmology:hover {
-  background-color: #19235c;
+  background-color: var(--dark-blue-background-color);
 }
 
 .evolution:hover {
@@ -33,7 +33,7 @@
 }
 
 .biology-medicine:hover {
-  background-color: #e29351;
+  background-color: var(--orange-background-color);
 }
 
 .robotics-ai:hover {
@@ -41,7 +41,7 @@
 }
 
 .ecology:hover {
-  background-color: #51a0e2;
+  background-color: var(--light-blue-background-color);
 }
 
 .rocket-img {
@@ -61,22 +61,22 @@
   margin: -6px 0 50px;
 }
 .background-cosmology {
-  background-color: #19235c;
+  background-color: var(--dark-blue-background-color);
 }
 .background-evolution {
   background-color: #ab9385;
 }
 .background-biology-medicine {
-  background-color: #e29351;
+  background-color: var(--orange-background-color);
 }
 .background-robotics-ai {
   background-color: #8a99a9;
 }
 .background-ecology {
-  background-color: #51a0e2;
+  background-color: var(--light-blue-background-color);
 }
 .container {
-  background-color: #fbf8f3;
+  background-color: var(--dark-white-background-color);
   border-radius: 15px;
   padding: 30px;
 }
