@@ -3,7 +3,6 @@
   height: 650px;
   background-size: cover;
   background-position: center;
-  display: flex;
   justify-content: flex-end;
   flex-direction: column;
 }
@@ -14,7 +13,6 @@
 }
 
 .sub-text {
-  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -28,7 +26,6 @@
 
 .container {
   background-color: var(--dark-white-background-color);
-  display: flex;
   justify-content: center;
   padding: 25px;
   border-radius: 15px;
@@ -43,7 +40,6 @@
 }
 
 .row {
-  display: flex;
   flex-wrap: wrap;
 }
 .col {
@@ -52,7 +48,6 @@
 
 .section {
   flex-direction: column;
-  display: flex;
   padding: 25px;
 }
 select optgroup {
@@ -83,7 +78,7 @@ select {
 }
 
 .time-location {
-  display: flex;
+  
   background-color: var(--dark-white-background-color);
   margin: 70px 0;
   padding: 35px 25px;
@@ -100,7 +95,6 @@ select {
   padding-bottom: 40px;
 }
 .map {
-  display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -126,11 +120,9 @@ figcaption {
   background-color: var(--dark-white-background-color);
   padding-top: 60px;
   margin-bottom: 100px;
-  display: flex;
   flex-direction: row;
 }
 .col2 {
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;

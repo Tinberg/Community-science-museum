@@ -3,7 +3,6 @@
   height: 650px;
   background-size: cover;
   background-position: top;
-  display: flex;
   justify-content: flex-end;
   flex-direction: column;
 }
@@ -13,7 +12,6 @@
   padding: 25px;
 }
 .container {
-  display: flex;
   flex-direction: column;
 }
 .background {
@@ -45,7 +43,6 @@ h2 {
 .contact-button {
   text-align: center;
   padding: 50px 0;
-  display: flex;
   justify-content: center;
 }
 

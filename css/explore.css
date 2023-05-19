@@ -19,7 +19,6 @@ h1 {
   padding-bottom: 75px;
 }
 .row {
-  display: flex;
   justify-content: space-around;
 }
 .col1 {
@@ -47,7 +46,6 @@ h1 {
   padding-top: 20px;
 }
 .container {
-  display: flex;
   flex-direction: column;
 }
 .kids {
@@ -57,7 +55,6 @@ h1 {
   background-color: var(--light-blue-background-color);
 }
 .button-container {
-  display: flex;
   justify-content: center;
   padding-top: 30px;
 }
