@@ -68,7 +68,7 @@ select {
   min-width: 252px;
   background-color: var(--white-background-color);
 }
-.input[type="date"]{
+input[type="date"]{
   min-width: 252px;
   -webkit-min-width: 252px;
 }
