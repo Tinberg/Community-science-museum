@@ -68,9 +68,8 @@ select {
   min-width: 252px;
   background-color: var(--white-background-color);
 }
-input[type="date"]{
-  min-width: 252px;
-  -webkit-min-width: 252px;
+input[type="date"]::-webkit-inner-spin-button {
+  display: none;
 }
 
 .message {
