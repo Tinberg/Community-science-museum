@@ -68,9 +68,6 @@ select {
   min-width: 252px;
   background-color: var(--white-background-color);
 }
-input[type="date"]::-webkit-inner-spin-button {
-  display: none;
-}
 
 .message {
   padding-bottom: 100px;
